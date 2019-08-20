@@ -18,7 +18,7 @@ VGG_16：用来进行ImageNet数据集中物体识别。
 可以将Mnist数据集数据从t10k-images.idx3-ubyte转换为一张张图片，脚本当前设置的图片数量是：100
 
 2、get_log_from_pb.py：
-从pb文件生成logs，从而能够调用TensorBoard查看网络，具体参考：http://rnd-github.huawei.com/zhangxiaochi/Kirin-AI-SW-VII/issues/31
+从pb文件生成logs，从而能够调用TensorBoard查看网络
 
 3、get_pb_from_meta.py：
 从meta和chpt文件生成pb模型文件
